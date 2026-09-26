@@ -54,7 +54,8 @@ List<BookModel> bookList = [
     rating: 4.7,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/91b1Y3G2QJL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/The_Hobbit",
+    bookUrl:
+        "https://en.wikipedia.org/wiki/The_Hobbit",
   ),
 
   BookModel(
@@ -69,7 +70,8 @@ List<BookModel> bookList = [
     rating: 4.6,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/71Q1tP4e4tL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
+    bookUrl:
+        "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
   ),
 
   BookModel(
@@ -84,7 +86,8 @@ List<BookModel> bookList = [
     rating: 4.5,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/81af%2BMCATTL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/The_Great_Gatsby",
+    bookUrl:
+        "https://en.wikipedia.org/wiki/The_Great_Gatsby",
   ),
 
   BookModel(
@@ -99,7 +102,8 @@ List<BookModel> bookList = [
     rating: 4.7,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    bookUrl: 
+        "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
   ),
 
   BookModel(
@@ -114,7 +118,8 @@ List<BookModel> bookList = [
     rating: 4.6,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/71aFt4%2BOTOL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+    bookUrl:
+        "https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
   ),
 
   BookModel(
@@ -129,7 +134,8 @@ List<BookModel> bookList = [
     rating: 4.8,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/81OdwZQZ4YL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+    bookUrl:
+        "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
   ),
 
   BookModel(
@@ -144,6 +150,7 @@ List<BookModel> bookList = [
     rating: 4.9,
     imageUrl:
         "https://images-na.ssl-images-amazon.com/images/I/71OZY035QTL.jpg",
-    bookUrl: "https://en.wikipedia.org/wiki/The_Little_Prince",
+    bookUrl:
+      "https://en.wikipedia.org/wiki/The_Little_Prince",
   ),
 ];

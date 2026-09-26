@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'models/book_models.dart';
+import 'book_detail.dart';
 
 class LibraryPage extends StatelessWidget {
   const LibraryPage({super.key});
@@ -7,9 +8,7 @@ class LibraryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Library'),
-      ),
+      appBar: AppBar(title: const Text('Library')),
       body: GridView.builder(
         padding: const EdgeInsets.all(10),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -24,6 +23,12 @@ class LibraryPage extends StatelessWidget {
 
           return InkWell(
             onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => BookDetailPage(book: book),
+                ),
+              );
             },
             child: Card(
               child: Column(
@@ -41,9 +46,7 @@ class LibraryPage extends StatelessWidget {
                     padding: const EdgeInsets.all(8),
                     child: Text(
                       book.title,
-                      style: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
 
