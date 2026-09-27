@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'models/book_models.dart';
 import 'book_detail.dart';
 
@@ -35,11 +36,17 @@ class LibraryPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
-                    child: Image.network(
-                      book.imageUrl,
-                      width: double.infinity,
-                      fit: BoxFit.cover,
-                    ),
+                    child: book.imageUrl.startsWith('http')
+                        ? Image.network(
+                            book.imageUrl,
+                            width: double.infinity,
+                            fit: BoxFit.cover,
+                          )
+                        : Image.asset(
+                            book.imageUrl,
+                            width: double.infinity,
+                            fit: BoxFit.cover,
+                          ),
                   ),
 
                   Padding(
